@@ -1,0 +1,4 @@
+module refresh_clock(
+	input VGA_CLK,
+	output t
+	);

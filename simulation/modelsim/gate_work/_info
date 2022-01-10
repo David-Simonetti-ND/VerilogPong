@@ -1,0 +1,565 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dG:/My Drive/Logic Design FA21/VGA/simulation/modelsim
+vbackground_rom
+!s110 1638553817
+!i10b 1
+!s100 [Pi:b^jmgojf6`Ai61?iE2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I1eh<PRbKRNfBk8Rf0FNkP2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1638311127
+8G:/My Drive/Logic Design FA21/VGA/verilog/background_rom.v
+FG:/My Drive/Logic Design FA21/VGA/verilog/background_rom.v
+!i122 26
+Z3 L0 1 18
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1638553817.000000
+!s107 G:/My Drive/Logic Design FA21/VGA/verilog/background_rom.v|
+!s90 -reportprogress|300|-work|work|G:/My Drive/Logic Design FA21/VGA/verilog/background_rom.v|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+vcontroller
+Z8 !s110 1638553818
+!i10b 1
+!s100 DjSS8@a6jgSY;Xg[7boM:0
+R1
+I8=0XhD1GVOKQMCW?RM3Lf2
+R2
+R0
+w1638502483
+8G:/My Drive/Logic Design FA21/VGA/verilog/controller.v
+FG:/My Drive/Logic Design FA21/VGA/verilog/controller.v
+!i122 27
+L0 1 218
+R4
+r1
+!s85 0
+31
+R5
+!s107 G:/My Drive/Logic Design FA21/VGA/verilog/controller.v|
+!s90 -reportprogress|300|-work|work|G:/My Drive/Logic Design FA21/VGA/verilog/controller.v|
+!i113 1
+R6
+R7
+vdatapath
+R8
+!i10b 1
+!s100 XNUgJ^[B1JDzgkE9VDnn_2
+R1
+IbI;E9cPK9EfD@gM6i^2UU1
+R2
+R0
+w1638507998
+8G:/My Drive/Logic Design FA21/VGA/verilog/datapath.v
+FG:/My Drive/Logic Design FA21/VGA/verilog/datapath.v
+!i122 28
+L0 1 151
+R4
+r1
+!s85 0
+31
+Z9 !s108 1638553818.000000
+!s107 G:/My Drive/Logic Design FA21/VGA/verilog/datapath.v|
+!s90 -reportprogress|300|-work|work|G:/My Drive/Logic Design FA21/VGA/verilog/datapath.v|
+!i113 1
+R6
+R7
+vdatapath_tb
+R8
+!i10b 1
+!s100 aI^m5D1269md[4]IRbbZC0
+R1
+IC0dEF>nGj:McQCm;Yo25V2
+R2
+R0
+w1638510183
+8G:/My Drive/Logic Design FA21/VGA/verilog/datapath_tb.v
+FG:/My Drive/Logic Design FA21/VGA/verilog/datapath_tb.v
+!i122 29
+L0 2 170
+R4
+r1
+!s85 0
+31
+R9
+!s107 G:/My Drive/Logic Design FA21/VGA/verilog/datapath_tb.v|
+!s90 -reportprogress|300|-work|work|G:/My Drive/Logic Design FA21/VGA/verilog/datapath_tb.v|
+!i113 1
+R6
+R7
+vdisplay_sprite
+R8
+!i10b 1
+!s100 Ri@9hO5Q73e>z=<WdlN8G3
+R1
+I2P71M4SneZ[>@ho]gIo2j1
+R2
+R0
+w1638313579
+8G:/My Drive/Logic Design FA21/VGA/verilog/display_sprite.v
+FG:/My Drive/Logic Design FA21/VGA/verilog/display_sprite.v
+!i122 30
+L0 1 31
+R4
+r1
+!s85 0
+31
+R9
+!s107 G:/My Drive/Logic Design FA21/VGA/verilog/display_sprite.v|
+!s90 -reportprogress|300|-work|work|G:/My Drive/Logic Design FA21/VGA/verilog/display_sprite.v|
+!i113 1
+R6
+R7
+vdisplay_sprite_tb
+!s110 1638554476
+!i10b 1
+!s100 TVWbaW9Go5Bm;QFXnoA0B1
+R1
+I0jUDEfgW7Nf^eD7[iFEh>3
+R2
+R0
+w1638554471
+8G:/My Drive/Logic Design FA21/VGA/verilog/display_sprite_tb.v
+FG:/My Drive/Logic Design FA21/VGA/verilog/display_sprite_tb.v
+!i122 50
+L0 2 50
+R4
+r1
+!s85 0
+31
+!s108 1638554476.000000
+!s107 G:/My Drive/Logic Design FA21/VGA/verilog/display_sprite_tb.v|
+!s90 -reportprogress|300|-work|work|G:/My Drive/Logic Design FA21/VGA/verilog/display_sprite_tb.v|
+!i113 1
+R6
+R7
+vdisplayscoreboard
+Z10 !s110 1638553819
+!i10b 1
+!s100 CldJmL<M:E7`mICBJ_QkC3
+R1
+I>i2O=fAD@Z2fj=QBFZ@[h0
+R2
+R0
+w1638313568
+8G:/My Drive/Logic Design FA21/VGA/verilog/displayscoreboard.v
+FG:/My Drive/Logic Design FA21/VGA/verilog/displayscoreboard.v
+!i122 31
+L0 1 40
+R4
+r1
+!s85 0
+31
+Z11 !s108 1638553819.000000
+!s107 G:/My Drive/Logic Design FA21/VGA/verilog/displayscoreboard.v|
+!s90 -reportprogress|300|-work|work|G:/My Drive/Logic Design FA21/VGA/verilog/displayscoreboard.v|
+!i113 1
+R6
+R7
+vdisplayscoreboard_tb
+!s110 1638553964
+!i10b 1
+!s100 aK;M_Q^>4zVHUY3aj>WjK0
+R1
+I^kmaF68>iG?7Tm;aPPAm11
+R2
+R0
+w1638553960
+8G:/My Drive/Logic Design FA21/VGA/verilog/displayscoreboard_tb.v
+FG:/My Drive/Logic Design FA21/VGA/verilog/displayscoreboard_tb.v
+!i122 47
+L0 2 48
+R4
+r1
+!s85 0
+31
+!s108 1638553964.000000
+!s107 G:/My Drive/Logic Design FA21/VGA/verilog/displayscoreboard_tb.v|
+!s90 -reportprogress|300|-work|work|G:/My Drive/Logic Design FA21/VGA/verilog/displayscoreboard_tb.v|
+!i113 1
+R6
+R7
+vedge_detector
+R10
+!i10b 1
+!s100 51BM:<6^hGj7>8THnbCf03
+R1
+I9U8CR@D_>j[FCOmI6h73d1
+R2
+R0
+w1638497265
+8G:/My Drive/Logic Design FA21/VGA/verilog/edge_detector.v
+FG:/My Drive/Logic Design FA21/VGA/verilog/edge_detector.v
+!i122 33
+Z12 L0 1 13
+R4
+r1
+!s85 0
+31
+R11
+!s107 G:/My Drive/Logic Design FA21/VGA/verilog/edge_detector.v|
+!s90 -reportprogress|300|-work|work|G:/My Drive/Logic Design FA21/VGA/verilog/edge_detector.v|
+!i113 1
+R6
+R7
+vframerate_clock
+Z13 !s110 1638555323
+!i10b 1
+!s100 zU[P?^<LKY68WEcYSob>Y2
+R1
+IB25W10cSCgoK1>5Dlfc3<0
+R2
+R0
+w1638315597
+8G:/My Drive/Logic Design FA21/VGA/verilog/framerate_clock.v
+FG:/My Drive/Logic Design FA21/VGA/verilog/framerate_clock.v
+!i122 53
+R12
+R4
+r1
+!s85 0
+31
+Z14 !s108 1638555323.000000
+!s107 G:/My Drive/Logic Design FA21/VGA/verilog/framerate_clock.v|
+!s90 -reportprogress|300|-work|work|G:/My Drive/Logic Design FA21/VGA/verilog/framerate_clock.v|
+!i113 1
+R6
+R7
+vframerate_clock_tb
+R13
+!i10b 1
+!s100 G1kYN[;>H[RbNi=hJI[^`0
+R1
+IU?g>7>[^odkV[iLZ<[_Ag3
+R2
+R0
+w1638555316
+8G:/My Drive/Logic Design FA21/VGA/verilog/framerate_clock_tb.v
+FG:/My Drive/Logic Design FA21/VGA/verilog/framerate_clock_tb.v
+!i122 54
+L0 2 16
+R4
+r1
+!s85 0
+31
+R14
+!s107 G:/My Drive/Logic Design FA21/VGA/verilog/framerate_clock_tb.v|
+!s90 -reportprogress|300|-work|work|G:/My Drive/Logic Design FA21/VGA/verilog/framerate_clock_tb.v|
+!i113 1
+R6
+R7
+vhard_block
+!s110 1638553143
+!i10b 1
+!s100 oAJ`]bb;za0a^1laB>OHP2
+R1
+Ik2MM4TGS5`4nnD:?Ne8EZ2
+R2
+R0
+w1638511196
+8vga_xy_demo.vo
+Fvga_xy_demo.vo
+!i122 0
+L0 14674 34
+R4
+r1
+!s85 0
+31
+!s108 1638553143.000000
+!s107 vga_xy_demo.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|vga_xy_demo.vo|
+!i113 1
+o-vlog01compat -work work
+!s92 -vlog01compat -work work +incdir+.
+R7
+vhexdigit
+Z15 !s110 1638553820
+!i10b 1
+!s100 TbEDgfb;c3hjzHLdjzg<Y3
+R1
+IUcmGN9]5AEe8a[XFPSC8f2
+R2
+R0
+w1506871655
+8G:/My Drive/Logic Design FA21/VGA/verilog/hexdigit.v
+FG:/My Drive/Logic Design FA21/VGA/verilog/hexdigit.v
+!i122 35
+L0 1 25
+R4
+r1
+!s85 0
+31
+Z16 !s108 1638553820.000000
+!s107 G:/My Drive/Logic Design FA21/VGA/verilog/hexdigit.v|
+!s90 -reportprogress|300|-work|work|G:/My Drive/Logic Design FA21/VGA/verilog/hexdigit.v|
+!i113 1
+R6
+R7
+vhlsm_de2
+R15
+!i10b 1
+!s100 `bfHEPVYIfYmVQDlW4id80
+R1
+Igij5AncAD[KigMGKBE3z72
+R2
+R0
+w1638511098
+8G:/My Drive/Logic Design FA21/VGA/verilog/hlsm_de2.v
+FG:/My Drive/Logic Design FA21/VGA/verilog/hlsm_de2.v
+!i122 36
+L0 1 72
+R4
+r1
+!s85 0
+31
+R16
+!s107 G:/My Drive/Logic Design FA21/VGA/verilog/hlsm_de2.v|
+!s90 -reportprogress|300|-work|work|G:/My Drive/Logic Design FA21/VGA/verilog/hlsm_de2.v|
+!i113 1
+R6
+R7
+vscoreboard
+Z17 !s110 1638553821
+!i10b 1
+!s100 G?Vo[^4>@bEc5nDGSH3AE3
+R1
+I^UO;oRg`O4<5lRmL7?c<S0
+R2
+R0
+w1638553224
+8G:/My Drive/Logic Design FA21/VGA/verilog/scoreboard.v
+FG:/My Drive/Logic Design FA21/VGA/verilog/scoreboard.v
+!i122 37
+L0 1 48
+R4
+r1
+!s85 0
+31
+R16
+!s107 G:/My Drive/Logic Design FA21/VGA/verilog/scoreboard.v|
+!s90 -reportprogress|300|-work|work|G:/My Drive/Logic Design FA21/VGA/verilog/scoreboard.v|
+!i113 1
+R6
+R7
+vscoreboard_tb
+R17
+!i10b 1
+!s100 MA?G?EPk:AnUde2I`cFR<2
+R1
+Ij0=WTY<fj`Tjm@<O;<Maj3
+R2
+R0
+w1638553451
+8G:/My Drive/Logic Design FA21/VGA/verilog/scoreboard_tb.v
+FG:/My Drive/Logic Design FA21/VGA/verilog/scoreboard_tb.v
+!i122 38
+L0 2 38
+R4
+r1
+!s85 0
+31
+Z18 !s108 1638553821.000000
+!s107 G:/My Drive/Logic Design FA21/VGA/verilog/scoreboard_tb.v|
+!s90 -reportprogress|300|-work|work|G:/My Drive/Logic Design FA21/VGA/verilog/scoreboard_tb.v|
+!i113 1
+R6
+R7
+vsprite_manager
+R17
+!i10b 1
+!s100 Pejhj4dzC`BZ[2nNVQDT81
+R1
+IkXZFcm?PY[:_d6DlKRYBo1
+R2
+R0
+w1638313618
+8G:/My Drive/Logic Design FA21/VGA/verilog/sprite_manager.v
+FG:/My Drive/Logic Design FA21/VGA/verilog/sprite_manager.v
+!i122 39
+Z19 L0 1 88
+R4
+r1
+!s85 0
+31
+R18
+!s107 G:/My Drive/Logic Design FA21/VGA/verilog/sprite_manager.v|
+!s90 -reportprogress|300|-work|work|G:/My Drive/Logic Design FA21/VGA/verilog/sprite_manager.v|
+!i113 1
+R6
+R7
+vsprite_manager_tb
+!s110 1638554904
+!i10b 1
+!s100 F`]1Jn1c=N[Ym6H;lG`d83
+R1
+Ih[13Q]AN<1hnFFSlh:n7Z3
+R2
+R0
+w1638554896
+8G:/My Drive/Logic Design FA21/VGA/verilog/sprite_manager_tb.v
+FG:/My Drive/Logic Design FA21/VGA/verilog/sprite_manager_tb.v
+!i122 51
+L0 2 59
+R4
+r1
+!s85 0
+31
+!s108 1638554904.000000
+!s107 G:/My Drive/Logic Design FA21/VGA/verilog/sprite_manager_tb.v|
+!s90 -reportprogress|300|-work|work|G:/My Drive/Logic Design FA21/VGA/verilog/sprite_manager_tb.v|
+!i113 1
+R6
+R7
+vsprite_rom
+R17
+!i10b 1
+!s100 9_F<WW81aRihQBRRMmR4l2
+R1
+I0dNhB80^1RkeDGAWIVlP60
+R2
+R0
+w1638311156
+8G:/My Drive/Logic Design FA21/VGA/verilog/sprite_rom.v
+FG:/My Drive/Logic Design FA21/VGA/verilog/sprite_rom.v
+!i122 40
+R3
+R4
+r1
+!s85 0
+31
+R18
+!s107 G:/My Drive/Logic Design FA21/VGA/verilog/sprite_rom.v|
+!s90 -reportprogress|300|-work|work|G:/My Drive/Logic Design FA21/VGA/verilog/sprite_rom.v|
+!i113 1
+R6
+R7
+vsprite_test
+Z20 !s110 1638553822
+!i10b 1
+!s100 @LSQjEcVST2[FL_cWfNVb0
+R1
+IMQbPcRjPP2a5zbj0jC=Xo2
+R2
+R0
+w1638313555
+8G:/My Drive/Logic Design FA21/VGA/verilog/sprite_test.v
+FG:/My Drive/Logic Design FA21/VGA/verilog/sprite_test.v
+!i122 41
+R19
+R4
+r1
+!s85 0
+31
+R18
+!s107 G:/My Drive/Logic Design FA21/VGA/verilog/sprite_test.v|
+!s90 -reportprogress|300|-work|work|G:/My Drive/Logic Design FA21/VGA/verilog/sprite_test.v|
+!i113 1
+R6
+R7
+vsystem
+R20
+!i10b 1
+!s100 IaV;m]6Nb9UMaDGSPiT;81
+R1
+Ich[7A9aYFKVUF=^UML7Q^3
+R2
+R0
+w1638511700
+8G:/My Drive/Logic Design FA21/VGA/verilog/system.v
+FG:/My Drive/Logic Design FA21/VGA/verilog/system.v
+!i122 42
+L0 1 121
+R4
+r1
+!s85 0
+31
+Z21 !s108 1638553822.000000
+!s107 G:/My Drive/Logic Design FA21/VGA/verilog/system.v|
+!s90 -reportprogress|300|-work|work|G:/My Drive/Logic Design FA21/VGA/verilog/system.v|
+!i113 1
+R6
+R7
+vsystem_tb
+R20
+!i10b 1
+!s100 C7Ua`[nK>F8iI?kFJRImL0
+R1
+I[YfzO8fbR9Rl>34@K0:kl3
+R2
+R0
+w1638512396
+8G:/My Drive/Logic Design FA21/VGA/verilog/system_tb.v
+FG:/My Drive/Logic Design FA21/VGA/verilog/system_tb.v
+!i122 43
+L0 2 37
+R4
+r1
+!s85 0
+31
+R21
+!s107 G:/My Drive/Logic Design FA21/VGA/verilog/system_tb.v|
+!s90 -reportprogress|300|-work|work|G:/My Drive/Logic Design FA21/VGA/verilog/system_tb.v|
+!i113 1
+R6
+R7
+vUART_RX
+Z22 !s110 1638553823
+!i10b 1
+!s100 NHM>>1LSjBTFaN[?ggeLR0
+R1
+I45h;nEdJ;a`FRGnH:6dK]2
+R2
+R0
+w1636665177
+8G:/My Drive/Logic Design FA21/VGA/verilog/UART_RX.v
+FG:/My Drive/Logic Design FA21/VGA/verilog/UART_RX.v
+!i122 44
+L0 14 136
+R4
+r1
+!s85 0
+31
+R21
+!s107 G:/My Drive/Logic Design FA21/VGA/verilog/UART_RX.v|
+!s90 -reportprogress|300|-work|work|G:/My Drive/Logic Design FA21/VGA/verilog/UART_RX.v|
+!i113 1
+R6
+R7
+n@u@a@r@t_@r@x
+vvga_xy_controller
+R22
+!i10b 1
+!s100 XAF=DY`ol9:M3NzFL1ofg0
+R1
+I0:0R4PW2FIeY>NDYLmMEo0
+R2
+R0
+w1540856589
+8G:/My Drive/Logic Design FA21/VGA/verilog/vga_xy_controller.v
+FG:/My Drive/Logic Design FA21/VGA/verilog/vga_xy_controller.v
+!i122 45
+L0 9 199
+R4
+r1
+!s85 0
+31
+!s108 1638553823.000000
+!s107 G:/My Drive/Logic Design FA21/VGA/verilog/vga_xy_controller.v|
+!s90 -reportprogress|300|-work|work|G:/My Drive/Logic Design FA21/VGA/verilog/vga_xy_controller.v|
+!i113 1
+R6
+R7

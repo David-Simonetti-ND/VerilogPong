@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Dec 06 16:07:26 2021
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : vga_xy_demo
+Top-level Entity Name : system_de2
+Family : Cyclone IV E
+Total logic elements : 491
+    Total combinational functions : 479
+    Dedicated logic registers : 164
+Total registers : 164
+Total pins : 93
+Total virtual pins : 0
+Total memory bits : 57,600
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

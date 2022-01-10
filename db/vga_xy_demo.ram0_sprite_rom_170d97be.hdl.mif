@@ -1,0 +1,28 @@
+-- begin_signature
+-- sprite_rom(IMAGE_FILE
+-- "Sprites/paddle.mem")
+-- end_signature
+WIDTH=3;
+DEPTH=16;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=BIN;
+
+CONTENT BEGIN
+	15 :	111;
+	14 :	111;
+	13 :	111;
+	12 :	111;
+	11 :	111;
+	10 :	111;
+	9 :	111;
+	8 :	111;
+	7 :	111;
+	6 :	111;
+	5 :	111;
+	4 :	111;
+	3 :	111;
+	2 :	111;
+	1 :	111;
+	0 :	111;
+END;

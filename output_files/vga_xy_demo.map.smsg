@@ -1,0 +1,5 @@
+Info (10281): Verilog HDL Declaration information at controller.v(3): object "reset" differs only in case from object "RESET" in the same scope File: G:/My Drive/Logic Design FA21/VGA/verilog/controller.v Line: 3
+Info (10281): Verilog HDL Declaration information at controller.v(25): object "paddle_down" differs only in case from object "PADDLE_DOWN" in the same scope File: G:/My Drive/Logic Design FA21/VGA/verilog/controller.v Line: 25
+Info (10281): Verilog HDL Declaration information at controller.v(24): object "paddle_up" differs only in case from object "PADDLE_UP" in the same scope File: G:/My Drive/Logic Design FA21/VGA/verilog/controller.v Line: 24
+Info (10281): Verilog HDL Declaration information at controller.v(27): object "ai_down" differs only in case from object "AI_DOWN" in the same scope File: G:/My Drive/Logic Design FA21/VGA/verilog/controller.v Line: 27
+Info (10281): Verilog HDL Declaration information at controller.v(26): object "ai_up" differs only in case from object "AI_UP" in the same scope File: G:/My Drive/Logic Design FA21/VGA/verilog/controller.v Line: 26

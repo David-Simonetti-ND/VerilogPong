@@ -1,0 +1,113 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'CLOCK_50'
+Slack : -5.073
+TNS   : -207.412
+
+Type  : Slow 1200mV 85C Model Setup 'system:system|framerate_clock:clock|count[0]'
+Slack : -4.870
+TNS   : -113.008
+
+Type  : Slow 1200mV 85C Model Setup 'vga_xy_controller:vga_xy_controller|VGA_CLK'
+Slack : -4.552
+TNS   : -118.952
+
+Type  : Slow 1200mV 85C Model Hold 'system:system|framerate_clock:clock|count[0]'
+Slack : 0.079
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'CLOCK_50'
+Slack : 0.388
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'vga_xy_controller:vga_xy_controller|VGA_CLK'
+Slack : 0.403
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -94.235
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'vga_xy_controller:vga_xy_controller|VGA_CLK'
+Slack : -2.693
+TNS   : -70.374
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'system:system|framerate_clock:clock|count[0]'
+Slack : -1.285
+TNS   : -70.675
+
+Type  : Slow 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -4.630
+TNS   : -185.656
+
+Type  : Slow 1200mV 0C Model Setup 'system:system|framerate_clock:clock|count[0]'
+Slack : -4.320
+TNS   : -98.465
+
+Type  : Slow 1200mV 0C Model Setup 'vga_xy_controller:vga_xy_controller|VGA_CLK'
+Slack : -4.047
+TNS   : -103.770
+
+Type  : Slow 1200mV 0C Model Hold 'system:system|framerate_clock:clock|count[0]'
+Slack : 0.053
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.341
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'vga_xy_controller:vga_xy_controller|VGA_CLK'
+Slack : 0.353
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -94.235
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'vga_xy_controller:vga_xy_controller|VGA_CLK'
+Slack : -2.649
+TNS   : -70.022
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'system:system|framerate_clock:clock|count[0]'
+Slack : -1.285
+TNS   : -70.675
+
+Type  : Fast 1200mV 0C Model Setup 'CLOCK_50'
+Slack : -2.077
+TNS   : -66.436
+
+Type  : Fast 1200mV 0C Model Setup 'system:system|framerate_clock:clock|count[0]'
+Slack : -1.811
+TNS   : -27.705
+
+Type  : Fast 1200mV 0C Model Setup 'vga_xy_controller:vga_xy_controller|VGA_CLK'
+Slack : -1.743
+TNS   : -35.894
+
+Type  : Fast 1200mV 0C Model Hold 'system:system|framerate_clock:clock|count[0]'
+Slack : 0.015
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'CLOCK_50'
+Slack : 0.176
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'vga_xy_controller:vga_xy_controller|VGA_CLK'
+Slack : 0.181
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'CLOCK_50'
+Slack : -3.000
+TNS   : -93.378
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'system:system|framerate_clock:clock|count[0]'
+Slack : -1.000
+TNS   : -55.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'vga_xy_controller:vga_xy_controller|VGA_CLK'
+Slack : -1.000
+TNS   : -46.000
+
+------------------------------------------------------------

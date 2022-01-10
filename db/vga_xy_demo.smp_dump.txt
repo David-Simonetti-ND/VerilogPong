@@ -1,0 +1,24 @@
+
+State Machine - |system_de2|system:system|controller:controller|state
+Name state.AI_RESET state.AI_UP state.AI_DOWN state.PADDLE_RESET state.PADDLE_UP state.PADDLE_DOWN state.AI_SCORE state.PLAYER_SCORE state.BALL_X_UP state.BALL_X_DOWN state.BALL_Y_UP state.BALL_Y_DOWN state.0000000 
+state.0000000 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.BALL_Y_DOWN 0 0 0 0 0 0 0 0 0 0 0 1 1 
+state.BALL_Y_UP 0 0 0 0 0 0 0 0 0 0 1 0 1 
+state.BALL_X_DOWN 0 0 0 0 0 0 0 0 0 1 0 0 1 
+state.BALL_X_UP 0 0 0 0 0 0 0 0 1 0 0 0 1 
+state.PLAYER_SCORE 0 0 0 0 0 0 0 1 0 0 0 0 1 
+state.AI_SCORE 0 0 0 0 0 0 1 0 0 0 0 0 1 
+state.PADDLE_DOWN 0 0 0 0 0 1 0 0 0 0 0 0 1 
+state.PADDLE_UP 0 0 0 0 1 0 0 0 0 0 0 0 1 
+state.PADDLE_RESET 0 0 0 1 0 0 0 0 0 0 0 0 1 
+state.AI_DOWN 0 0 1 0 0 0 0 0 0 0 0 0 1 
+state.AI_UP 0 1 0 0 0 0 0 0 0 0 0 0 1 
+state.AI_RESET 1 0 0 0 0 0 0 0 0 0 0 0 1 
+
+State Machine - |system_de2|UART_RX:UART_RX_Inst|r_SM_Main
+Name r_SM_Main.s_RX_STOP_BIT r_SM_Main.s_RX_DATA_BITS r_SM_Main.s_RX_START_BIT r_SM_Main.000 r_SM_Main.s_CLEANUP 
+r_SM_Main.000 0 0 0 0 0 
+r_SM_Main.s_RX_START_BIT 0 0 1 1 0 
+r_SM_Main.s_RX_DATA_BITS 0 1 0 1 0 
+r_SM_Main.s_RX_STOP_BIT 1 0 0 1 0 
+r_SM_Main.s_CLEANUP 0 0 0 1 1 

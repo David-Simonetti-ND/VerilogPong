@@ -1,0 +1,708 @@
+# Reading pref.tcl
+# do vga_xy_demo_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+G:/My\ Drive/Logic\ Design\ FA21/VGA/verilog {G:/My Drive/Logic Design FA21/VGA/verilog/UART_RX.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:13:32 on Dec 06,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/My Drive/Logic Design FA21/VGA/verilog" G:/My Drive/Logic Design FA21/VGA/verilog/UART_RX.v 
+# -- Compiling module UART_RX
+# 
+# Top level modules:
+# 	UART_RX
+# End time: 16:13:33 on Dec 06,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+G:/My\ Drive/Logic\ Design\ FA21/VGA/verilog {G:/My Drive/Logic Design FA21/VGA/verilog/vga_xy_controller.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:13:33 on Dec 06,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/My Drive/Logic Design FA21/VGA/verilog" G:/My Drive/Logic Design FA21/VGA/verilog/vga_xy_controller.v 
+# -- Compiling module vga_xy_controller
+# 
+# Top level modules:
+# 	vga_xy_controller
+# End time: 16:13:33 on Dec 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+G:/My\ Drive/Logic\ Design\ FA21/VGA/verilog {G:/My Drive/Logic Design FA21/VGA/verilog/sprite_rom.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:13:33 on Dec 06,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/My Drive/Logic Design FA21/VGA/verilog" G:/My Drive/Logic Design FA21/VGA/verilog/sprite_rom.v 
+# -- Compiling module sprite_rom
+# 
+# Top level modules:
+# 	sprite_rom
+# End time: 16:13:33 on Dec 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+G:/My\ Drive/Logic\ Design\ FA21/VGA/verilog {G:/My Drive/Logic Design FA21/VGA/verilog/background_rom.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:13:33 on Dec 06,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/My Drive/Logic Design FA21/VGA/verilog" G:/My Drive/Logic Design FA21/VGA/verilog/background_rom.v 
+# -- Compiling module background_rom
+# 
+# Top level modules:
+# 	background_rom
+# End time: 16:13:34 on Dec 06,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+G:/My\ Drive/Logic\ Design\ FA21/VGA/verilog {G:/My Drive/Logic Design FA21/VGA/verilog/display_sprite.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:13:34 on Dec 06,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/My Drive/Logic Design FA21/VGA/verilog" G:/My Drive/Logic Design FA21/VGA/verilog/display_sprite.v 
+# -- Compiling module display_sprite
+# 
+# Top level modules:
+# 	display_sprite
+# End time: 16:13:34 on Dec 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+G:/My\ Drive/Logic\ Design\ FA21/VGA/verilog {G:/My Drive/Logic Design FA21/VGA/verilog/displayscoreboard.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:13:34 on Dec 06,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/My Drive/Logic Design FA21/VGA/verilog" G:/My Drive/Logic Design FA21/VGA/verilog/displayscoreboard.v 
+# -- Compiling module displayscoreboard
+# 
+# Top level modules:
+# 	displayscoreboard
+# End time: 16:13:34 on Dec 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+G:/My\ Drive/Logic\ Design\ FA21/VGA/verilog {G:/My Drive/Logic Design FA21/VGA/verilog/sprite_manager.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:13:34 on Dec 06,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/My Drive/Logic Design FA21/VGA/verilog" G:/My Drive/Logic Design FA21/VGA/verilog/sprite_manager.v 
+# -- Compiling module sprite_manager
+# 
+# Top level modules:
+# 	sprite_manager
+# End time: 16:13:34 on Dec 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+G:/My\ Drive/Logic\ Design\ FA21/VGA/verilog {G:/My Drive/Logic Design FA21/VGA/verilog/framerate_clock.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:13:34 on Dec 06,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/My Drive/Logic Design FA21/VGA/verilog" G:/My Drive/Logic Design FA21/VGA/verilog/framerate_clock.v 
+# -- Compiling module framerate_clock
+# 
+# Top level modules:
+# 	framerate_clock
+# End time: 16:13:35 on Dec 06,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+G:/My\ Drive/Logic\ Design\ FA21/VGA/verilog {G:/My Drive/Logic Design FA21/VGA/verilog/datapath.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:13:35 on Dec 06,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/My Drive/Logic Design FA21/VGA/verilog" G:/My Drive/Logic Design FA21/VGA/verilog/datapath.v 
+# -- Compiling module datapath
+# ** Warning: G:/My Drive/Logic Design FA21/VGA/verilog/datapath.v(45): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: G:/My Drive/Logic Design FA21/VGA/verilog/datapath.v(48): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	datapath
+# End time: 16:13:35 on Dec 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vlog -vlog01compat -work work +incdir+G:/My\ Drive/Logic\ Design\ FA21/VGA/verilog {G:/My Drive/Logic Design FA21/VGA/verilog/controller.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:13:35 on Dec 06,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/My Drive/Logic Design FA21/VGA/verilog" G:/My Drive/Logic Design FA21/VGA/verilog/controller.v 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 16:13:35 on Dec 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+G:/My\ Drive/Logic\ Design\ FA21/VGA/verilog {G:/My Drive/Logic Design FA21/VGA/verilog/system.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:13:35 on Dec 06,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/My Drive/Logic Design FA21/VGA/verilog" G:/My Drive/Logic Design FA21/VGA/verilog/system.v 
+# -- Compiling module system
+# 
+# Top level modules:
+# 	system
+# End time: 16:13:35 on Dec 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+G:/My\ Drive/Logic\ Design\ FA21/VGA/verilog {G:/My Drive/Logic Design FA21/VGA/verilog/system_de2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:13:35 on Dec 06,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/My Drive/Logic Design FA21/VGA/verilog" G:/My Drive/Logic Design FA21/VGA/verilog/system_de2.v 
+# -- Compiling module system_de2
+# 
+# Top level modules:
+# 	system_de2
+# End time: 16:13:36 on Dec 06,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+G:/My\ Drive/Logic\ Design\ FA21/VGA/verilog {G:/My Drive/Logic Design FA21/VGA/verilog/scoreboard.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:13:36 on Dec 06,2021
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+G:/My Drive/Logic Design FA21/VGA/verilog" G:/My Drive/Logic Design FA21/VGA/verilog/scoreboard.v 
+# -- Compiling module scoreboard
+# 
+# Top level modules:
+# 	scoreboard
+# End time: 16:13:36 on Dec 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vlog -reportprogress 300 -work work {G:/My Drive/Logic Design FA21/VGA/verilog/background_rom.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:14:26 on Dec 06,2021
+# vlog -reportprogress 300 -work work G:/My Drive/Logic Design FA21/VGA/verilog/background_rom.v 
+# -- Compiling module background_rom
+# 
+# Top level modules:
+# 	background_rom
+# End time: 16:14:26 on Dec 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {G:/My Drive/Logic Design FA21/VGA/verilog/controller.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:14:26 on Dec 06,2021
+# vlog -reportprogress 300 -work work G:/My Drive/Logic Design FA21/VGA/verilog/controller.v 
+# -- Compiling module controller
+# 
+# Top level modules:
+# 	controller
+# End time: 16:14:26 on Dec 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {G:/My Drive/Logic Design FA21/VGA/verilog/controller_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:14:26 on Dec 06,2021
+# vlog -reportprogress 300 -work work G:/My Drive/Logic Design FA21/VGA/verilog/controller_tb.v 
+# -- Compiling module controller_tb
+# 
+# Top level modules:
+# 	controller_tb
+# End time: 16:14:26 on Dec 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {G:/My Drive/Logic Design FA21/VGA/verilog/datapath.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:14:26 on Dec 06,2021
+# vlog -reportprogress 300 -work work G:/My Drive/Logic Design FA21/VGA/verilog/datapath.v 
+# -- Compiling module datapath
+# ** Warning: G:/My Drive/Logic Design FA21/VGA/verilog/datapath.v(45): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: G:/My Drive/Logic Design FA21/VGA/verilog/datapath.v(48): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	datapath
+# End time: 16:14:27 on Dec 06,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 2
+vlog -reportprogress 300 -work work {G:/My Drive/Logic Design FA21/VGA/verilog/datapath_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:14:27 on Dec 06,2021
+# vlog -reportprogress 300 -work work G:/My Drive/Logic Design FA21/VGA/verilog/datapath_tb.v 
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 16:14:27 on Dec 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {G:/My Drive/Logic Design FA21/VGA/verilog/display_sprite.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:14:27 on Dec 06,2021
+# vlog -reportprogress 300 -work work G:/My Drive/Logic Design FA21/VGA/verilog/display_sprite.v 
+# -- Compiling module display_sprite
+# 
+# Top level modules:
+# 	display_sprite
+# End time: 16:14:27 on Dec 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {G:/My Drive/Logic Design FA21/VGA/verilog/display_sprite_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:14:27 on Dec 06,2021
+# vlog -reportprogress 300 -work work G:/My Drive/Logic Design FA21/VGA/verilog/display_sprite_tb.v 
+# -- Compiling module display_sprite_tb
+# 
+# Top level modules:
+# 	display_sprite_tb
+# End time: 16:14:28 on Dec 06,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {G:/My Drive/Logic Design FA21/VGA/verilog/displayscoreboard.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:14:28 on Dec 06,2021
+# vlog -reportprogress 300 -work work G:/My Drive/Logic Design FA21/VGA/verilog/displayscoreboard.v 
+# -- Compiling module displayscoreboard
+# 
+# Top level modules:
+# 	displayscoreboard
+# End time: 16:14:28 on Dec 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {G:/My Drive/Logic Design FA21/VGA/verilog/displayscoreboard_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:14:28 on Dec 06,2021
+# vlog -reportprogress 300 -work work G:/My Drive/Logic Design FA21/VGA/verilog/displayscoreboard_tb.v 
+# -- Compiling module displayscoreboard_tb
+# 
+# Top level modules:
+# 	displayscoreboard_tb
+# End time: 16:14:28 on Dec 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {G:/My Drive/Logic Design FA21/VGA/verilog/edge_detector.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:14:28 on Dec 06,2021
+# vlog -reportprogress 300 -work work G:/My Drive/Logic Design FA21/VGA/verilog/edge_detector.v 
+# -- Compiling module edge_detector
+# 
+# Top level modules:
+# 	edge_detector
+# End time: 16:14:28 on Dec 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {G:/My Drive/Logic Design FA21/VGA/verilog/framerate_clock.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:14:28 on Dec 06,2021
+# vlog -reportprogress 300 -work work G:/My Drive/Logic Design FA21/VGA/verilog/framerate_clock.v 
+# -- Compiling module framerate_clock
+# 
+# Top level modules:
+# 	framerate_clock
+# End time: 16:14:29 on Dec 06,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {G:/My Drive/Logic Design FA21/VGA/verilog/framerate_clock_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:14:29 on Dec 06,2021
+# vlog -reportprogress 300 -work work G:/My Drive/Logic Design FA21/VGA/verilog/framerate_clock_tb.v 
+# -- Compiling module framerate_clock_tb
+# 
+# Top level modules:
+# 	framerate_clock_tb
+# End time: 16:14:29 on Dec 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {G:/My Drive/Logic Design FA21/VGA/verilog/hexdigit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:14:29 on Dec 06,2021
+# vlog -reportprogress 300 -work work G:/My Drive/Logic Design FA21/VGA/verilog/hexdigit.v 
+# -- Compiling module hexdigit
+# 
+# Top level modules:
+# 	hexdigit
+# End time: 16:14:29 on Dec 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {G:/My Drive/Logic Design FA21/VGA/verilog/scoreboard.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:14:29 on Dec 06,2021
+# vlog -reportprogress 300 -work work G:/My Drive/Logic Design FA21/VGA/verilog/scoreboard.v 
+# -- Compiling module scoreboard
+# 
+# Top level modules:
+# 	scoreboard
+# End time: 16:14:29 on Dec 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {G:/My Drive/Logic Design FA21/VGA/verilog/scoreboard_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:14:29 on Dec 06,2021
+# vlog -reportprogress 300 -work work G:/My Drive/Logic Design FA21/VGA/verilog/scoreboard_tb.v 
+# -- Compiling module scoreboard_tb
+# 
+# Top level modules:
+# 	scoreboard_tb
+# End time: 16:14:30 on Dec 06,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {G:/My Drive/Logic Design FA21/VGA/verilog/sprite_manager.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:14:30 on Dec 06,2021
+# vlog -reportprogress 300 -work work G:/My Drive/Logic Design FA21/VGA/verilog/sprite_manager.v 
+# -- Compiling module sprite_manager
+# 
+# Top level modules:
+# 	sprite_manager
+# End time: 16:14:30 on Dec 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {G:/My Drive/Logic Design FA21/VGA/verilog/sprite_manager_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:14:30 on Dec 06,2021
+# vlog -reportprogress 300 -work work G:/My Drive/Logic Design FA21/VGA/verilog/sprite_manager_tb.v 
+# -- Compiling module sprite_manager_tb
+# 
+# Top level modules:
+# 	sprite_manager_tb
+# End time: 16:14:30 on Dec 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {G:/My Drive/Logic Design FA21/VGA/verilog/sprite_rom.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:14:30 on Dec 06,2021
+# vlog -reportprogress 300 -work work G:/My Drive/Logic Design FA21/VGA/verilog/sprite_rom.v 
+# -- Compiling module sprite_rom
+# 
+# Top level modules:
+# 	sprite_rom
+# End time: 16:14:30 on Dec 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {G:/My Drive/Logic Design FA21/VGA/verilog/system.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:14:31 on Dec 06,2021
+# vlog -reportprogress 300 -work work G:/My Drive/Logic Design FA21/VGA/verilog/system.v 
+# -- Compiling module system
+# 
+# Top level modules:
+# 	system
+# End time: 16:14:31 on Dec 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {G:/My Drive/Logic Design FA21/VGA/verilog/system_de2.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:14:31 on Dec 06,2021
+# vlog -reportprogress 300 -work work G:/My Drive/Logic Design FA21/VGA/verilog/system_de2.v 
+# -- Compiling module system_de2
+# 
+# Top level modules:
+# 	system_de2
+# End time: 16:14:31 on Dec 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {G:/My Drive/Logic Design FA21/VGA/verilog/system_uart_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:14:31 on Dec 06,2021
+# vlog -reportprogress 300 -work work G:/My Drive/Logic Design FA21/VGA/verilog/system_uart_tb.v 
+# -- Compiling module system_uart_tb
+# 
+# Top level modules:
+# 	system_uart_tb
+# End time: 16:14:31 on Dec 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {G:/My Drive/Logic Design FA21/VGA/verilog/UART_RX.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:14:31 on Dec 06,2021
+# vlog -reportprogress 300 -work work G:/My Drive/Logic Design FA21/VGA/verilog/UART_RX.v 
+# -- Compiling module UART_RX
+# 
+# Top level modules:
+# 	UART_RX
+# End time: 16:14:32 on Dec 06,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vlog -reportprogress 300 -work work {G:/My Drive/Logic Design FA21/VGA/verilog/vga_xy_controller.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:14:32 on Dec 06,2021
+# vlog -reportprogress 300 -work work G:/My Drive/Logic Design FA21/VGA/verilog/vga_xy_controller.v 
+# -- Compiling module vga_xy_controller
+# 
+# Top level modules:
+# 	vga_xy_controller
+# End time: 16:14:32 on Dec 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.controller_tb
+# vsim work.controller_tb 
+# Start time: 16:14:34 on Dec 06,2021
+# Loading work.controller_tb
+# Loading work.controller
+add wave -position end sim:/controller_tb/*
+run
+vlog -reportprogress 300 -work work {G:/My Drive/Logic Design FA21/VGA/verilog/controller_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:15:53 on Dec 06,2021
+# vlog -reportprogress 300 -work work G:/My Drive/Logic Design FA21/VGA/verilog/controller_tb.v 
+# -- Compiling module controller_tb
+# 
+# Top level modules:
+# 	controller_tb
+# End time: 16:15:53 on Dec 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.controller_tb
+# End time: 16:15:57 on Dec 06,2021, Elapsed time: 0:01:23
+# Errors: 0, Warnings: 0
+# vsim work.controller_tb 
+# Start time: 16:15:57 on Dec 06,2021
+# Loading work.controller_tb
+# Loading work.controller
+add wave -position end sim:/controller_tb/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+restart
+add wave -position end  sim:/controller_tb/uut/state
+add wave -position end  sim:/controller_tb/uut/next_state
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vlog -reportprogress 300 -work work {G:/My Drive/Logic Design FA21/VGA/verilog/system_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:21:38 on Dec 06,2021
+# vlog -reportprogress 300 -work work G:/My Drive/Logic Design FA21/VGA/verilog/system_tb.v 
+# -- Compiling module system_tb
+# 
+# Top level modules:
+# 	system_tb
+# End time: 16:21:38 on Dec 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.system_tb
+# End time: 16:21:44 on Dec 06,2021, Elapsed time: 0:05:47
+# Errors: 0, Warnings: 0
+# vsim work.system_tb 
+# Start time: 16:21:44 on Dec 06,2021
+# Loading work.system_tb
+# Loading work.UART_RX
+# Loading work.system
+# Loading work.framerate_clock
+# Loading work.controller
+# Loading work.datapath
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'controller'.  Expected 31, found 30.
+#    Time: 0 ns  Iteration: 0  Instance: /system_tb/system/controller File: G:/My Drive/Logic Design FA21/VGA/verilog/system.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (2) for port 'sel_y_paddle'. The port definition is at: G:/My Drive/Logic Design FA21/VGA/verilog/controller.v(8).
+#    Time: 0 ns  Iteration: 0  Instance: /system_tb/system/controller File: G:/My Drive/Logic Design FA21/VGA/verilog/system.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (2) for port 'sel_y_ai'. The port definition is at: G:/My Drive/Logic Design FA21/VGA/verilog/controller.v(10).
+#    Time: 0 ns  Iteration: 0  Instance: /system_tb/system/controller File: G:/My Drive/Logic Design FA21/VGA/verilog/system.v Line: 29
+# ** Warning: (vsim-3722) G:/My Drive/Logic Design FA21/VGA/verilog/system.v(29): [TFMPC] - Missing connection for port 'reset'.
+add wave -position end sim:/system_tb/*
+add wave -position end  sim:/system_tb/system/t
+run
+run
+run
+run
+# ** Note: $stop    : G:/My Drive/Logic Design FA21/VGA/verilog/system_tb.v(107)
+#    Time: 100435015 ns  Iteration: 0  Instance: /system_tb
+# Break in Module system_tb at G:/My Drive/Logic Design FA21/VGA/verilog/system_tb.v line 107
+run
+vlog -reportprogress 300 -work work {G:/My Drive/Logic Design FA21/VGA/verilog/system_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:30:04 on Dec 06,2021
+# vlog -reportprogress 300 -work work G:/My Drive/Logic Design FA21/VGA/verilog/system_tb.v 
+# -- Compiling module system_tb
+# 
+# Top level modules:
+# 	system_tb
+# End time: 16:30:04 on Dec 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.system_tb
+# End time: 16:30:09 on Dec 06,2021, Elapsed time: 0:08:25
+# Errors: 0, Warnings: 4
+# vsim work.system_tb 
+# Start time: 16:30:09 on Dec 06,2021
+# Loading work.system_tb
+# Loading work.UART_RX
+# Loading work.system
+# Loading work.framerate_clock
+# Loading work.controller
+# Loading work.datapath
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'controller'.  Expected 31, found 30.
+#    Time: 0 ns  Iteration: 0  Instance: /system_tb/system/controller File: G:/My Drive/Logic Design FA21/VGA/verilog/system.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (2) for port 'sel_y_paddle'. The port definition is at: G:/My Drive/Logic Design FA21/VGA/verilog/controller.v(8).
+#    Time: 0 ns  Iteration: 0  Instance: /system_tb/system/controller File: G:/My Drive/Logic Design FA21/VGA/verilog/system.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (2) for port 'sel_y_ai'. The port definition is at: G:/My Drive/Logic Design FA21/VGA/verilog/controller.v(10).
+#    Time: 0 ns  Iteration: 0  Instance: /system_tb/system/controller File: G:/My Drive/Logic Design FA21/VGA/verilog/system.v Line: 29
+# ** Warning: (vsim-3722) G:/My Drive/Logic Design FA21/VGA/verilog/system.v(29): [TFMPC] - Missing connection for port 'reset'.
+add wave -position end sim:/system_tb/*
+add wave -position end  sim:/system_tb/system/t
+run
+run
+# ** Note: $stop    : G:/My Drive/Logic Design FA21/VGA/verilog/system_tb.v(107)
+#    Time: 300435015 ns  Iteration: 0  Instance: /system_tb
+# Break in Module system_tb at G:/My Drive/Logic Design FA21/VGA/verilog/system_tb.v line 107
+run -continue
+run
+vlog -reportprogress 300 -work work {G:/My Drive/Logic Design FA21/VGA/verilog/datapath_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:39:24 on Dec 06,2021
+# vlog -reportprogress 300 -work work G:/My Drive/Logic Design FA21/VGA/verilog/datapath_tb.v 
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 16:39:25 on Dec 06,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.datapath_tb
+# End time: 16:39:29 on Dec 06,2021, Elapsed time: 0:09:20
+# Errors: 0, Warnings: 4
+# vsim work.datapath_tb 
+# Start time: 16:39:29 on Dec 06,2021
+# Loading work.datapath_tb
+# Loading work.datapath
+add wave -position end sim:/datapath_tb/*
+vlog -reportprogress 300 -work work {G:/My Drive/Logic Design FA21/VGA/verilog/scoreboard_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:41:39 on Dec 06,2021
+# vlog -reportprogress 300 -work work G:/My Drive/Logic Design FA21/VGA/verilog/scoreboard_tb.v 
+# -- Compiling module scoreboard_tb
+# ** Error: G:/My Drive/Logic Design FA21/VGA/verilog/scoreboard_tb.v(28): (vlog-2730) Undefined variable: 'yvga'.
+# ** Error: G:/My Drive/Logic Design FA21/VGA/verilog/scoreboard_tb.v(31): (vlog-2730) Undefined variable: 'xvga'.
+# End time: 16:41:40 on Dec 06,2021, Elapsed time: 0:00:01
+# Errors: 2, Warnings: 0
+vlog -reportprogress 300 -work work {G:/My Drive/Logic Design FA21/VGA/verilog/scoreboard_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:41:56 on Dec 06,2021
+# vlog -reportprogress 300 -work work G:/My Drive/Logic Design FA21/VGA/verilog/scoreboard_tb.v 
+# -- Compiling module scoreboard_tb
+# 
+# Top level modules:
+# 	scoreboard_tb
+# End time: 16:41:56 on Dec 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.scoreboard_tb
+# End time: 16:42:03 on Dec 06,2021, Elapsed time: 0:02:34
+# Errors: 0, Warnings: 0
+# vsim work.scoreboard_tb 
+# Start time: 16:42:04 on Dec 06,2021
+# Loading work.scoreboard_tb
+# Loading work.scoreboard
+add wave -position end sim:/scoreboard_tb/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vlog -reportprogress 300 -work work {G:/My Drive/Logic Design FA21/VGA/verilog/displayscoreboard_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:44:58 on Dec 06,2021
+# vlog -reportprogress 300 -work work G:/My Drive/Logic Design FA21/VGA/verilog/displayscoreboard_tb.v 
+# -- Compiling module displayscoreboard_tb
+# 
+# Top level modules:
+# 	displayscoreboard_tb
+# End time: 16:44:58 on Dec 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.displayscoreboard_tb
+# End time: 16:45:03 on Dec 06,2021, Elapsed time: 0:02:59
+# Errors: 0, Warnings: 0
+# vsim work.displayscoreboard_tb 
+# Start time: 16:45:03 on Dec 06,2021
+# Loading work.displayscoreboard_tb
+# Loading work.displayscoreboard
+# Loading work.scoreboard
+add wave -position end sim:/displayscoreboard_tb/*
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+vlog -reportprogress 300 -work work {G:/My Drive/Logic Design FA21/VGA/verilog/display_sprite_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:47:10 on Dec 06,2021
+# vlog -reportprogress 300 -work work G:/My Drive/Logic Design FA21/VGA/verilog/display_sprite_tb.v 
+# -- Compiling module display_sprite_tb
+# ** Error: (vlog-13069) G:/My Drive/Logic Design FA21/VGA/verilog/display_sprite_tb.v(45): near "initial": syntax error, unexpected initial.
+# ** Error: (vlog-13069) G:/My Drive/Logic Design FA21/VGA/verilog/display_sprite_tb.v(55): near "endmodule": syntax error, unexpected endmodule.
+# End time: 16:47:10 on Dec 06,2021, Elapsed time: 0:00:00
+# Errors: 2, Warnings: 0
+vlog -reportprogress 300 -work work {G:/My Drive/Logic Design FA21/VGA/verilog/display_sprite_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:48:13 on Dec 06,2021
+# vlog -reportprogress 300 -work work G:/My Drive/Logic Design FA21/VGA/verilog/display_sprite_tb.v 
+# -- Compiling module display_sprite_tb
+# 
+# Top level modules:
+# 	display_sprite_tb
+# End time: 16:48:13 on Dec 06,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.display_sprite_tb
+# End time: 16:48:18 on Dec 06,2021, Elapsed time: 0:03:15
+# Errors: 0, Warnings: 0
+# vsim work.display_sprite_tb 
+# Start time: 16:48:18 on Dec 06,2021
+# Loading work.display_sprite_tb
+# Loading work.display_sprite
+# Loading work.sprite_rom
+add wave -position end sim:/display_sprite_tb/*
+run
+run
+run
+run
+run
+run
+run
+vlog -reportprogress 300 -work work {G:/My Drive/Logic Design FA21/VGA/verilog/sprite_manager_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 16:50:24 on Dec 06,2021
+# vlog -reportprogress 300 -work work G:/My Drive/Logic Design FA21/VGA/verilog/sprite_manager_tb.v 
+# -- Compiling module sprite_manager_tb
+# 
+# Top level modules:
+# 	sprite_manager_tb
+# End time: 16:50:25 on Dec 06,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.sprite_manager_tb
+# End time: 16:50:31 on Dec 06,2021, Elapsed time: 0:02:13
+# Errors: 0, Warnings: 0
+# vsim work.sprite_manager_tb 
+# Start time: 16:50:31 on Dec 06,2021
+# Loading work.sprite_manager_tb
+# Loading work.sprite_manager
+# Loading work.display_sprite
+# Loading work.sprite_rom
+# Loading work.displayscoreboard
+# Loading work.scoreboard
+# Loading work.background_rom
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'player_score'. The port definition is at: G:/My Drive/Logic Design FA21/VGA/verilog/displayscoreboard.v(5).
+#    Time: 0 ns  Iteration: 0  Instance: /sprite_manager_tb/uut/scoreboard File: G:/My Drive/Logic Design FA21/VGA/verilog/sprite_manager.v Line: 59
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'ai_score'. The port definition is at: G:/My Drive/Logic Design FA21/VGA/verilog/displayscoreboard.v(6).
+#    Time: 0 ns  Iteration: 0  Instance: /sprite_manager_tb/uut/scoreboard File: G:/My Drive/Logic Design FA21/VGA/verilog/sprite_manager.v Line: 59
+add wave -position end sim:/sprite_manager_tb/*
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 9 of file "Sprites/paddle.mem". (Current address [16], address range [0:15])    : G:/My Drive/Logic Design FA21/VGA/verilog/sprite_rom.v(13)
+#    Time: 0 ns  Iteration: 0  Instance: /sprite_manager_tb/uut/paddle/sprite
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 9 of file "Sprites/paddle.mem". (Current address [16], address range [0:15])    : G:/My Drive/Logic Design FA21/VGA/verilog/sprite_rom.v(13)
+#    Time: 0 ns  Iteration: 0  Instance: /sprite_manager_tb/uut/ai/sprite
+vsim work.system_tb
+# End time: 17:01:58 on Dec 06,2021, Elapsed time: 0:11:27
+# Errors: 0, Warnings: 4
+# vsim work.system_tb 
+# Start time: 17:01:58 on Dec 06,2021
+# Loading work.system_tb
+# Loading work.UART_RX
+# Loading work.system
+# Loading work.framerate_clock
+# Loading work.controller
+# Loading work.datapath
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'controller'.  Expected 31, found 30.
+#    Time: 0 ns  Iteration: 0  Instance: /system_tb/system/controller File: G:/My Drive/Logic Design FA21/VGA/verilog/system.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (2) for port 'sel_y_paddle'. The port definition is at: G:/My Drive/Logic Design FA21/VGA/verilog/controller.v(8).
+#    Time: 0 ns  Iteration: 0  Instance: /system_tb/system/controller File: G:/My Drive/Logic Design FA21/VGA/verilog/system.v Line: 29
+# ** Warning: (vsim-3015) [PCDPC] - Port size (3) does not match connection size (2) for port 'sel_y_ai'. The port definition is at: G:/My Drive/Logic Design FA21/VGA/verilog/controller.v(10).
+#    Time: 0 ns  Iteration: 0  Instance: /system_tb/system/controller File: G:/My Drive/Logic Design FA21/VGA/verilog/system.v Line: 29
+# ** Warning: (vsim-3722) G:/My Drive/Logic Design FA21/VGA/verilog/system.v(29): [TFMPC] - Missing connection for port 'reset'.
+add wave -position end sim:/system_tb/*
+add wave -position end  sim:/system_tb/system/controller/state
+add wave -position end  sim:/system_tb/system/controller/next_state
+run
+run
+run
+# ** Note: $stop    : G:/My Drive/Logic Design FA21/VGA/verilog/system_tb.v(107)
+#    Time: 300435015 ns  Iteration: 0  Instance: /system_tb
+# Break in Module system_tb at G:/My Drive/Logic Design FA21/VGA/verilog/system_tb.v line 107
+run
+run
+vlog -reportprogress 300 -work work {G:/My Drive/Logic Design FA21/VGA/verilog/datapath_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:07:49 on Dec 06,2021
+# vlog -reportprogress 300 -work work G:/My Drive/Logic Design FA21/VGA/verilog/datapath_tb.v 
+# -- Compiling module datapath_tb
+# 
+# Top level modules:
+# 	datapath_tb
+# End time: 17:07:50 on Dec 06,2021, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+vsim work.datapath_tb
+# End time: 17:08:04 on Dec 06,2021, Elapsed time: 0:06:06
+# Errors: 0, Warnings: 4
+# vsim work.datapath_tb 
+# Start time: 17:08:04 on Dec 06,2021
+# Loading work.datapath_tb
+# Loading work.datapath
+add wave -position end sim:/datapath_tb/*
+run
+run
+run
+run
+run

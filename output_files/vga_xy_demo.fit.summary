@@ -1,0 +1,16 @@
+Fitter Status : Successful - Mon Dec 06 16:07:51 2021
+Quartus Prime Version : 20.1.1 Build 720 11/11/2020 SJ Lite Edition
+Revision Name : vga_xy_demo
+Top-level Entity Name : system_de2
+Family : Cyclone IV E
+Device : EP4CE115F29C7
+Timing Models : Final
+Total logic elements : 493 / 114,480 ( < 1 % )
+    Total combinational functions : 479 / 114,480 ( < 1 % )
+    Dedicated logic registers : 164 / 114,480 ( < 1 % )
+Total registers : 164
+Total pins : 93 / 529 ( 18 % )
+Total virtual pins : 0
+Total memory bits : 57,600 / 3,981,312 ( 1 % )
+Embedded Multiplier 9-bit elements : 0 / 532 ( 0 % )
+Total PLLs : 0 / 4 ( 0 % )

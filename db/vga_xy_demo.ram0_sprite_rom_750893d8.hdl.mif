@@ -1,0 +1,28 @@
+-- begin_signature
+-- sprite_rom(IMAGE_FILE
+-- "1.mem")
+-- end_signature
+WIDTH=3;
+DEPTH=16;
+
+ADDRESS_RADIX=UNS;
+DATA_RADIX=BIN;
+
+CONTENT BEGIN
+	15 :	000;
+	14 :	111;
+	13 :	000;
+	12 :	000;
+	11 :	000;
+	10 :	111;
+	9 :	000;
+	8 :	111;
+	7 :	000;
+	6 :	111;
+	5 :	111;
+	4 :	000;
+	3 :	000;
+	2 :	111;
+	1 :	000;
+	0 :	000;
+END;
